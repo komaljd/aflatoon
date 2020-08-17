@@ -100,7 +100,10 @@
 						   <h3 class="font-h3-30 font-gothamBold"  data-aos="fade-up"  data-aos-duration="1000">'The power of imagination' </h3>
 						   <div class="our-work-btn" data-aos="flip-left"
 							  data-aos-easing="ease-out-cubic"      data-aos-duration="2000">
-							  <a href="<?php echo $base_url; ?>work" class="btn btn-border">Our Work</a>
+							  <a href="<?php echo $base_url; ?>work" class="btn btn-effect ">Our Work
+							  	<div>
+							  	</div>
+							  </a>
 						   </div>
 						</div>
 					 </div>

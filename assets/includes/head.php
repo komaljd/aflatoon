@@ -6,7 +6,7 @@
 			 case 'development':
 					 error_reporting(-1);
 					 ini_set('display_errors', 1);
-					 $base_url = 'http://localhost/af/';
+					 $base_url = 'http://localhost/aflatoon/';
 			 break;
 			 case 'testing':
 					 ini_set('display_errors', 0);

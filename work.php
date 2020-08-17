@@ -64,7 +64,7 @@
 									</div>
 								 </div>
 								 <div class="readmore pt-lg-4 pt-md-4  "  data-toggle="modal" data-target="#myModal">
-									<span class="read-more-btn">See More</span> 
+									<span class="read-more-btn ">See More</span> 
 								 </div>
 							  </div>
 						   </div>
