@@ -30,7 +30,7 @@
 					 {
 							 error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
 					 }
-					 $base_url = 'http://aflatoondesigns.com/';
+					 $base_url = 'https://aflatoondesigns.com/';
 			 break;
 	 
 			 default:

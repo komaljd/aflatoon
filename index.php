@@ -178,6 +178,41 @@
 								 </div>
 							  </div>
 						   </div>
+						   <div class="item">
+							  <div class="slider-content">
+								 <div class="imgSize">
+									<img src="<?php echo $base_url; ?>assets/images/client/t-shirt.png">
+								 </div>
+							  </div>
+						   </div>
+						    <div class="item">
+							  <div class="slider-content">
+								 <div class="imgSize">
+									<img src="<?php echo $base_url; ?>assets/images/client/sai-shobha.png" alt="sai-shobha">
+								 </div>
+							  </div>
+						   </div>
+						   <div class="item">
+							  <div class="slider-content">
+								 <div class="imgSize">
+									<img src="<?php echo $base_url; ?>assets/images/client/sargam.png" alt="sargam">
+								 </div>
+							  </div>
+						   </div>
+						   <div class="item">
+							  <div class="slider-content">
+								 <div class="imgSize">
+									<img src="<?php echo $base_url; ?>assets/images/client/smartgravy.png" alt="smartgravy">
+								 </div>
+							  </div>
+						   </div>
+						   <div class="item">
+							  <div class="slider-content">
+								 <div class="imgSize">
+									<img src="<?php echo $base_url; ?>assets/images/client/ab.png">
+								 </div>
+							  </div>
+						   </div>
 						</div>
 					 </div>
 				  </div>
@@ -193,7 +228,10 @@
 					 </h2>
 				  </div>
 				  <!-- Feeds -->
-				<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/c515c6ad116b54bc8624847725d48dc0.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+				<!-- LightWidget WIDGET -->
+				<div id="instafeed">
+				<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8ff367d401f15c6bba574cd4577cecdc.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+				</div>
 			   </div>
 			</section>
 			
