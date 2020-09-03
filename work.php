@@ -15,7 +15,7 @@
 					 <div class="content text-center">
 						<div class="" data-aos="zoom-in">
 						   <div class="imgSize">
-							  <a href="<?php echo $base_url; ?>#work"><img src="<?php echo $base_url; ?>assets/images/logo/mob_logo.png" alt="eye"></a>
+							  <a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>assets/images/logo/mob_logo.png" alt="eye"></a>
 						   </div>
 						</div>
 						<!-- title -->

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
    <?php include('assets/includes/head.php');?>
    <body>
 	  <div class="mainWrapper">
@@ -279,7 +279,7 @@
 					  		</div>
 					  		<div class="col-md-12">
 					  			<div class="form-group text-center ffl-wrapper">
-					  				<input type=""  value="submit" class="btn btn-border" id="submitBtn">
+					  				<input type="button"  value="SUBMIT" class="btn btn-border" id="submitBtn">
 					  			</div>
 					  		</div>
 				  		</div>

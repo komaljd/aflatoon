@@ -18,7 +18,7 @@
 					 {
 							 error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
 					 }
-					 $base_url = 'http://localhost/af/';
+					 $base_url = 'http://localhost/aflatoon/';
 			 break;
 			 case 'production':
 					 ini_set('display_errors', 0);
@@ -30,7 +30,7 @@
 					 {
 							 error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
 					 }
-					 $base_url = 'https://aflatoondesigns.com/';
+					 $base_url = 'http://aflatoondesigns.com/';
 			 break;
 	 
 			 default:
@@ -42,13 +42,13 @@
 	 /* for active menu */
 	 $request_uri = $_SERVER['REQUEST_URI'];
 	 $current_url = $request_uri;
-	 if (strpos($request_uri, 'af/'))
+	 if (strpos($request_uri, 'aflatoon/'))
 	 {
-			 $current_url = str_replace('/af/', '', $request_uri);
+			 $current_url = str_replace('/aflatoon/', '', $request_uri);
 	 }
 	 else
 	 {
-			 $current_url = str_replace('/af', '', $request_uri);
+			 $current_url = str_replace('/aflatoon', '', $request_uri);
 	 }
 	 if($current_url == '')
 	 {
@@ -56,6 +56,13 @@
 	 }
 	 
 	 /* code for canonical tag  */
+	 $https          = isset($_SERVER["HTTPS"]) ? "https://" : "http://";
+	$http_host      = $_SERVER['HTTP_HOST'];
+	$script_name    = $_SERVER['SCRIPT_NAME'];
+	$link           = $https . $http_host . $script_name;
+	$search         = array('.php', 'index');
+	$replacement    = array('', '');
+	$canonical_link = str_replace($search, $replacement, $link);
 	 ?>
 
 <head>
@@ -63,6 +70,7 @@
 	<meta name="description" content="">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-site-verification" content="es_2q32abXKOe30KmVGVCHlhQ8USAL7GMnkDUxcZqNQ">
 	<title>aflatoon</title>
 	<!-- favicon -->
 
@@ -92,5 +100,14 @@
 	<link href="<?php echo $base_url; ?>assets/css/style.css"  rel="stylesheet" >
 	<!-- css -->
 	<link href="<?php echo $base_url; ?>assets/css/responsive.css"    rel="stylesheet" >
+	<link rel="canonical" href="<?= $canonical_link; ?>">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176783144-1"></script>
+	<!-- 	<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-176783144-1');
+		</script> -->
 
 </head>
