@@ -378,16 +378,16 @@ h2.font-h2 {
     left: 13%;
 }
 .banner .heading h1.font-h1 {
-    -webkit-animation: colo 0.3s linear 10s forwards;
-    animation: colo 0.3s linear 10s forwards;
+    -webkit-animation: colo 0.3s linear 15s forwards;
+    animation: colo 0.3s linear 15s forwards;
     color: #56494929;
 }
 .banner .heading h3.font-h3 {
     margin-bottom: -18px;
     margin-left: 10px;
     color: #56494929;
-    -webkit-animation: colorblack 0.3s linear 10s forwards;
-    animation: colorblack 0.3s linear 10s forwards;
+    -webkit-animation: colorblack 0.3s linear 15s forwards;
+    animation: colorblack 0.3s linear 15s forwards;
     position: relative;
     overflow: hidden;
 }

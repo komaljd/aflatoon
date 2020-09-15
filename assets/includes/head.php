@@ -95,7 +95,7 @@
 	<link href="<?php echo $base_url; ?>assets/css/pulgin.css"  rel="stylesheet" >
 	<!-- header -->
 	<link href="<?php echo $base_url; ?>assets/css/header.css"   rel="stylesheet" >
-	<link href="<?php echo $base_url; ?>assets/css/loader.css"   rel="stylesheet" >
+	<!-- <link href="<?php echo $base_url; ?>assets/css/loader.css"   rel="stylesheet" > -->
 	<!-- css -->
 	<link href="<?php echo $base_url; ?>assets/css/style.css"  rel="stylesheet" >
 	<!-- css -->

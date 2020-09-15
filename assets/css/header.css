@@ -1,1 +1,158 @@
-#headerWrapper{position:absolute;left:0;width:100%;padding:15px 0}.logoSize{width:180px}.logoSize img{width:100%}#headerWrapper .nav li{display:inline-block}header .nav li{display:inline-block;margin:0 30px;align-self:center;font-size:17px}header .nav li:not(:nth-child(3)) a{position:relative;color:#000;text-transform:uppercase;padding:9px 20px;overflow:hidden;display:block}header .nav li.active:not(:nth-child(3)) a,.menu-list li.active a{color:#f00!important}header .nav li:not(:nth-child(3)) a>div:after,header .nav li:not(:nth-child(3)) a>div:before,header .nav li:not(:nth-child(3)) a:after,header .nav li:not(:nth-child(3)) a:before,.btn-effect:after,.btn-effect:before,.btn-effect>div:after,.btn-effect>div:before{content:"";position:absolute;background-color:#000}header .nav li:not(:nth-child(3)) a>div:after,.btn-effect>div:after{top:0;left:0;width:2px;height:0;transition:all 0.4s ease-in-out}header .nav li:not(:nth-child(3)) a>div:before,.btn-effect>div:before{bottom:0;right:0;width:2px;height:0;transition:all 0.5s ease-in-out}header .nav li:not(:nth-child(3)) a:after,.btn-effect:after{top:0;right:0;width:0;height:2px;transition:all 0.4s ease-in-out}header .nav li:not(:nth-child(3)) a:before,.btn-effect:before{bottom:0;left:0;width:0;height:2px;transition:all 0.5s ease-in-out}header .nav li:not(:nth-child(3)) a:hover:after,.btn-effect:hover:after{right:0;width:100%}header .nav li:not(:nth-child(3)) a:hover:before,.btn-effect:hover:before{left:0;width:100%}header .nav li:not(:nth-child(3)) a:hover>div:after,.btn-effect:hover>div:after{height:100%}header .nav li:not(:nth-child(3)) a:hover>div:before,.btn-effect:hover>div:before{height:100%}.burger-menu{position:relative;width:26px;height:26px;transform:rotate(0deg);float:right;display:none;margin:40px 0;z-index:2}.burger-menu span{position:absolute;top:0;width:100%;height:3px;background-color:#000;transform:rotate(0deg);transition:0.4s ease-in-out}.burger-menu span:nth-child(1){top:0;right:0;width:70%}.burger-menu span:nth-child(2){top:7px}.burger-menu span:nth-child(3){top:14px}.burger-menu.open span:nth-child(1){opacity:0;right:0}.burger-menu.open span:nth-child(2){top:0;transform:rotate(135deg)}.burger-menu.open span:nth-child(3){top:0;transform:rotate(42deg)}
+/*loader*/
+
+
+#preloader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index:99999;
+}
+
+#gifloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+        background: #010001;
+}
+#headerWrapper {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+}
+.logoSize {
+    width: 180px;
+}
+.logoSize img {
+    width: 100%;
+}
+#headerWrapper .nav li {
+    display: inline-block;
+}
+header .nav li {
+    display: inline-block;
+    margin: 0 30px;
+    align-self: center;
+    font-size: 17px;
+}
+header .nav li:not(:nth-child(3)) a {
+    position: relative;
+    color: #000;
+    text-transform: uppercase;
+    padding: 9px 20px;
+    overflow: hidden;
+    display: block;
+}
+header .nav li.active:not(:nth-child(3)) a,
+.menu-list li.active a {
+    color: #f00 !important;
+}
+header .nav li:not(:nth-child(3)) a > div:after,
+header .nav li:not(:nth-child(3)) a > div:before,
+header .nav li:not(:nth-child(3)) a:after,
+header .nav li:not(:nth-child(3)) a:before,
+.btn-effect:after,
+.btn-effect:before,
+.btn-effect > div:after,
+.btn-effect > div:before {
+    content: "";
+    position: absolute;
+    background-color: #000;
+}
+header .nav li:not(:nth-child(3)) a > div:after,
+.btn-effect > div:after {
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    transition: all 0.4s ease-in-out;
+}
+header .nav li:not(:nth-child(3)) a > div:before,
+.btn-effect > div:before {
+    bottom: 0;
+    right: 0;
+    width: 2px;
+    height: 0;
+    transition: all 0.5s ease-in-out;
+}
+header .nav li:not(:nth-child(3)) a:after,
+.btn-effect:after {
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    transition: all 0.4s ease-in-out;
+}
+header .nav li:not(:nth-child(3)) a:before,
+.btn-effect:before {
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: all 0.5s ease-in-out;
+}
+header .nav li:not(:nth-child(3)) a:hover:after,
+.btn-effect:hover:after {
+    right: 0;
+    width: 100%;
+}
+header .nav li:not(:nth-child(3)) a:hover:before,
+.btn-effect:hover:before {
+    left: 0;
+    width: 100%;
+}
+header .nav li:not(:nth-child(3)) a:hover > div:after,
+.btn-effect:hover > div:after {
+    height: 100%;
+}
+header .nav li:not(:nth-child(3)) a:hover > div:before,
+.btn-effect:hover > div:before {
+    height: 100%;
+}
+.burger-menu {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    transform: rotate(0deg);
+    float: right;
+    display: none;
+    margin: 40px 0;
+    z-index: 2;
+}
+.burger-menu span {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    transform: rotate(0deg);
+    transition: 0.4s ease-in-out;
+}
+.burger-menu span:nth-child(1) {
+    top: 0;
+    right: 0;
+    width: 70%;
+}
+.burger-menu span:nth-child(2) {
+    top: 7px;
+}
+.burger-menu span:nth-child(3) {
+    top: 14px;
+}
+.burger-menu.open span:nth-child(1) {
+    opacity: 0;
+    right: 0;
+}
+.burger-menu.open span:nth-child(2) {
+    top: 0;
+    transform: rotate(135deg);
+}
+.burger-menu.open span:nth-child(3) {
+    top: 0;
+    transform: rotate(42deg);
+}
